@@ -1,10 +1,10 @@
 import BoxHeader from "@/components/BoxHeader";
 import DashboardBox from "@/components/DashboardBox";
 import { useGetKpisQuery } from "@/state/api";
+import { priceFormatter } from "@/utils/index";
 import { useTheme } from "@mui/material";
 import { useMemo } from "react";
-import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Rectangle, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import { priceFormatter } from "@/utils/index";
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const Row1 = () => {
   const { palette } = useTheme();

@@ -2,6 +2,7 @@ import App from '@/App'
 import { api } from '@/state/api'
 import { configureStore } from '@reduxjs/toolkit'
 import { setupListeners } from '@reduxjs/toolkit/query'
+// @ts-ignore
 import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux'
 import './index.css'
