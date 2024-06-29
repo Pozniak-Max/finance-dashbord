@@ -164,8 +164,8 @@ const Row3 = () => {
                 <Pie
                   stroke="none"
                   data={data}
-                  innerRadius={18}
-                  outerRadius={35}
+                  innerRadius={14}
+                  outerRadius={25}
                   paddingAngle={2}
                   dataKey="value"
                 >
