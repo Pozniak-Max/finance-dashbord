@@ -8,10 +8,6 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "noEmit": true,
-    "compilerOptions": {
-      "noUnusedLocals": false,
-      "noUnusedParameters": false
-  },
   },
   "include": ["vite.config.ts"]
 }
